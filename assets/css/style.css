@@ -561,6 +561,20 @@ section {
     min-height: 400px;
 }
 
+.list-group-item.active {
+    background-color: #fcfcfc;
+    border-color: whitesmoke;
+    padding: 30px;
+    box-shadow: 0 0 30px rgba(21, 21, 21, 0.08);
+    z-index: 2;
+    color: #000;
+}
+
+.list-group-item.active:hover {
+    background-color: white;
+    border-color: whitesmoke;
+}
+
 /*--------------------------------------------------------------
 # Featured
 --------------------------------------------------------------*/
