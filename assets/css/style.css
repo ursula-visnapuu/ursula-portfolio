@@ -202,7 +202,7 @@ h5,
     opacity: 0;
     visibility: hidden;
     background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
 }
 
@@ -1014,7 +1014,7 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-    padding-top: 40px;
+    padding-top: 1px;
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -1022,7 +1022,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
-    margin-top: 15px;
+    margin-top: 2px;
     position: relative;
 }
 
