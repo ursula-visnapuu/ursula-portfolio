@@ -1286,6 +1286,14 @@ section {
     overflow: hidden;
 }
 
+.team .praktika .card {
+    transition: background-color 0.2s;
+}
+
+.team .praktika:hover .card {
+    background-color: #fff;
+}
+
 .team .praktika .praktika-img {
     position: relative;
     overflow: hidden;
@@ -1365,6 +1373,7 @@ section {
     opacity: 1;
     transition: bottom ease-in-out 0.4s;
 }
+
 .text-left {
     text-align: left;
 }
