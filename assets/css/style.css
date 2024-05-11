@@ -1082,6 +1082,44 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Praktika
+--------------------------------------------------------------*/
+.praktika .card {
+    perspective: 1000px;
+    transition: transform 0.5s ease;
+    width: 200px; /* Lisa kaardile laius vastavalt soovile */
+    height: 300px; /* Lisa kaardile kõrgus vastavalt soovile */
+    position: relative;
+}
+
+.praktika .card:hover {
+    transform: rotateY(-180deg);
+}
+
+.praktika .front,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.praktika .front img {
+    width: 100%;
+    height: 100%;
+}
+
+.praktika .back {
+    transform: rotateY(152deg);
+    background-color: #ffffff; /* Tagakülje taustavärv */
+    color: #000000; /* Teksti värv */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
@@ -1243,18 +1281,18 @@ section {
     padding: 60px 0;
 }
 
-.team .member {
+.team .praktika {
     margin-bottom: 20px;
     overflow: hidden;
 }
 
-.team .member .member-img {
+.team .praktika .praktika-img {
     position: relative;
     overflow: hidden;
     border-radius: 5px;
 }
 
-.team .member .social {
+.team .praktika .social {
     position: absolute;
     left: 0;
     bottom: -40px;
@@ -1268,7 +1306,17 @@ section {
     justify-content: center;
 }
 
-.team .member .social a {
+.team .praktika-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team .praktika-title h4 {
+    font-size: 24px;
+    color: #333;
+}
+
+.team .praktika .social a {
     transition: color 0.3s;
     color: rgba(255, 255, 255, 0.7);
     margin: 0 10px;
@@ -1277,26 +1325,26 @@ section {
     justify-content: center;
 }
 
-.team .member .social a i {
+.team .praktika .social a i {
     line-height: 0;
 }
 
-.team .member .social a:hover {
+.team .praktika .social a:hover {
     color: #fff;
 }
 
-.team .member .social i {
+.team .praktika .social i {
     font-size: 18px;
     margin: 0 2px;
 }
 
-.team .member .member-info h4 {
+.team .praktika .praktika-info h4 {
     font-weight: 700;
     margin: 15px 0 5px 0;
     font-size: 18px;
 }
 
-.team .member .member-info span {
+.team .praktika .praktika-info span {
     display: block;
     font-size: 13px;
     text-transform: uppercase;
@@ -1305,135 +1353,24 @@ section {
     color: #956324;
 }
 
-.team .member .member-info p {
+.team .praktika .praktika-info p {
     font-style: italic;
     font-size: 14px;
     line-height: 26px;
     color: #888888;
 }
 
-.team .member:hover .social {
+.team .praktika:hover .social {
     bottom: 0;
     opacity: 1;
     transition: bottom ease-in-out 0.4s;
 }
-
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-    padding: 20px;
-    background: #fff;
-    text-align: center;
-    border-radius: 8px;
-    position: relative;
-    overflow: hidden;
-    border: 1px solid #fff;
+.text-left {
+    text-align: left;
 }
 
-.pricing .box h3 {
-    font-weight: 400;
-    padding: 15px;
-    margin-top: 15px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #151515;
-}
-
-.pricing .box h4 {
-    font-size: 42px;
-    color: #151515;
-    font-weight: 700;
-    font-family: "Open Sans", sans-serif;
-    margin-bottom: 20px;
-}
-
-.pricing .box h4 sup {
-    font-size: 20px;
-    top: -15px;
-    left: -3px;
-}
-
-.pricing .box h4 span {
-    color: #bababa;
-    font-size: 16px;
-    font-weight: 300;
-}
-
-.pricing .box ul {
-    padding: 0;
-    list-style: none;
-    color: #151515;
-    text-align: center;
-    line-height: 20px;
-    font-size: 14px;
-}
-
-.pricing .box ul li {
-    padding-bottom: 16px;
-}
-
-.pricing .box ul i {
-    color: #956324;
-    font-size: 18px;
-    padding-right: 4px;
-}
-
-.pricing .box ul .na {
-    color: #ccc;
-    text-decoration: line-through;
-}
-
-.pricing .box .btn-wrap {
-    padding: 15px;
-    text-align: center;
-}
-
-.pricing .box .btn-buy {
-    display: inline-block;
-    padding: 10px 40px 12px 40px;
-    border-radius: 5px;
-    border: 2px solid #956324;
-    color: #956324;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    transition: 0.3s;
-}
-
-.pricing .box .btn-buy:hover {
-    background: #956324;
-    color: #fff;
-}
-
-.pricing .recommended {
-    border-color: #956324;
-}
-
-.pricing .recommended .btn-buy {
-    background: #956324;
-    color: #fff;
-}
-
-.pricing .recommended .btn-buy:hover {
-    background: #61b959;
-    border-color: #61b959;
-}
-
-.pricing .recommended-badge {
-    position: absolute;
-    top: 5px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-    font-size: 12px;
-    padding: 4px 25px 6px 25px;
-    background: #eaf6e9;
-    color: #956324;
-    border-radius: 50px;
-    text-transform: uppercase;
-    font-weight: 600;
+.kolmpunkti .card {
+    height: 100px;
 }
 
 /*--------------------------------------------------------------
