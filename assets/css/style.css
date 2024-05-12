@@ -116,7 +116,7 @@ h5,
 #header .logo h1 a:hover {
     color: #fff;
     text-decoration: none;
-    border-left: 4px solid #998100;
+    border-left: 4px solid #956324;
 }
 
 #header .logo img {
@@ -419,7 +419,7 @@ h5,
     border-radius: 3px;
     margin: 7px;
     color: #fff;
-    background: #998100;
+    background: #956324;
 }
 
 #hero .btn-get-started:hover {
@@ -629,6 +629,123 @@ section {
     100% {
         opacity: 1;
     }
+}
+.featured .more {
+    display: none;
+}
+
+/* Stiil "Loe rohkem" nupule */
+
+.readMoreBtn,
+.readLessBtn {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin: -2px;
+    margin-top: 20px;
+    color: #fff;
+
+    background: #956324;
+    float: left;
+    border: none;
+}
+
+.readLessBtn {
+    display: none; /* Alguses peidetud */
+}
+
+
+/* Stiil "Loe rohkem" nupule */
+.readMoreBtn2,
+.readLessBtn2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin: -2px;
+    margin-top: 20px;
+    color: #fff;
+    background: #956324;
+    border: none;
+}
+
+.readLessBtn2 {
+    display: none; /* Alguses peidetud */
+}
+
+/* Stiil "Loe rohkem" nupule */
+.readMoreBtn3,
+.readLessBtn3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin: -2px;
+    margin-top: 20px;
+    color: #fff;
+    background: #956324;
+    border: none;
+}
+
+.readLessBtn3 {
+    display: none; /* Alguses peidetud */
+}
+
+/* Stiil "Loe rohkem" nupule */
+.readMoreBtn4,
+.readLessBtn4 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: -2px;
+    color: #fff;
+    background: #956324;
+}
+
+.readLessBtn4 {
+    display: none; /* Alguses peidetud */
+}
+
+/* Stiil "Loe rohkem" nupule */
+.readMoreBtn5,
+.readLessBtn5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: -2px;
+    color: #fff;
+    background: #956324;
+}
+
+.readLessBtn5 {
+    display: none; /* Alguses peidetud */
+}
+
+.btn-open-modal {
+    margin-bottom: 5px;
 }
 
 /*--------------------------------------------------------------
@@ -1765,7 +1882,7 @@ section {
     --bs-btn-bg: #956324;
     --bs-btn-border-color: rgba(112, 83, 48, 0.69);
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #a17f55;
+    --bs-btn-hover-bg: #3c3021;
     --bs-btn-hover-border-color: #956324;
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
