@@ -405,7 +405,7 @@ document.querySelector(".readMoreBtn3").addEventListener("click", showMore3);
 document.querySelector(".readLessBtn3").addEventListener("click", showLess3);
 
 // Esialgne seadistus: Peida "Loe vähem" nupp kolmanda "div" jaoks
-document.querySelector(".readLessBtn").style.display = "none";
+document.querySelector(".readLessBtn3").style.display = "none";
 
 // Funktsioon, mis käivitatakse nupu "Loe rohkem" klõpsamisel neljanda "div" jaoks
 function showMore4() {
@@ -445,3 +445,41 @@ document.querySelector(".readLessBtn4").addEventListener("click", showLess4);
 
 // Esialgne seadistus: Peida "Loe vähem" nupp neljanda "div" jaoks
 document.querySelector(".readLessBtn4").style.display = "none";
+
+// Funktsioon, mis käivitatakse nupu "Loe rohkem" klõpsamisel
+function showMore5() {
+    var fullText5 = document.getElementById("fullText5");
+    var readMoreBtn5 = document.querySelector(".readMoreBtn5");
+    var readLessBtn5 = document.querySelector(".readLessBtn5");
+
+    // Näita täielikku teksti
+    fullText5.style.display = "block";
+
+    // Peida "Loe rohkem" nupp
+    readMoreBtn5.style.display = "none";
+
+    // Näita "Loe vähem" nuppu
+    readLessBtn5.style.display = "inline-block";
+}
+
+// Funktsioon, mis käivitatakse nupu "Loe vähem" klõpsamisel
+function showLess5() {
+    var fullText5 = document.getElementById("fullText5");
+    var readMoreBtn5 = document.querySelector(".readMoreBtn5");
+    var readLessBtn5 = document.querySelector(".readLessBtn5");
+
+    // Peida täielik tekst
+    fullText5.style.display = "none";
+
+    // Näita "Loe rohkem" nuppu
+    readMoreBtn5.style.display = "inline-block";
+
+    // Peida "Loe vähem" nupp
+    readLessBtn5.style.display = "none";
+}
+
+// Lisa sündmuskäsitlejad nuppudele
+document.querySelector(".readMoreBtn5").addEventListener("click", showMore5);
+document.querySelector(".readLessBtn5").addEventListener("click", showLess5);
+// Esialgne seadistus: Peida "Loe vähem" nupp
+document.querySelector(".readLessBtn5").style.display = "none";
