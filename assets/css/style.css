@@ -62,7 +62,6 @@ h6 {
 
 .back-to-top:hover {
     background: #dc8d29;
-    color: #fff;
 }
 
 .back-to-top.active {
@@ -659,6 +658,19 @@ section {
     color: #fff;
     background: #956324;
     border: none;
+}
+
+.readMoreBtn:hover,
+.readLessBtn:hover,
+.readMoreBtn2:hover,
+.readLessBtn2:hover,
+.readMoreBtn3:hover,
+.readLessBtn3:hover,
+.readMoreBtn4:hover,
+.readLessBtn4:hover,
+.readMoreBtn5:hover,
+.readLessBtn5:hover {
+    background: #dc8d29;
 }
 
 .readLessBtn,
@@ -1805,16 +1817,16 @@ section {
 .btn-primary {
     --bs-btn-color: #fff;
     --bs-btn-bg: #956324;
-    --bs-btn-border-color: rgba(112, 83, 48, 0.69);
+    --bs-btn-border-color: #956324;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #3c3021;
-    --bs-btn-hover-border-color: #956324;
+    --bs-btn-hover-bg: #dc8d29;
+    --bs-btn-hover-border-color: #dc8d29;
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #956324;
+    --bs-btn-active-bg: #f29013;
     --bs-btn-active-border-color: #956324;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #956324;
-    --bs-btn-disabled-border-color: #956324;
+    --bs-btn-disabled-bg: #8e7b63;
+    --bs-btn-disabled-border-color: #8e7b63;
 }
