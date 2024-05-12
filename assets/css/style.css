@@ -634,97 +634,16 @@ section {
     display: none;
 }
 
-/* Stiil "Loe rohkem" nupule */
-
+/* Stiil "Loe rohkem" nupule. 
+ * Neid on mitu, kuna js kasutab nende puhul klassi selleks, et leida õiget vajutatud nuppu */
 .readMoreBtn,
-.readLessBtn {
-    font-family: "Lato", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 15px;
-    border-radius: 8px;
-    transition: 0.5s;
-    margin: -2px;
-    margin-top: 20px;
-    color: #fff;
-
-    background: #956324;
-    float: left;
-    border: none;
-}
-
-.readLessBtn {
-    display: none; /* Alguses peidetud */
-}
-
-
-/* Stiil "Loe rohkem" nupule */
+.readLessBtn,
 .readMoreBtn2,
-.readLessBtn2 {
-    font-family: "Lato", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 15px;
-    border-radius: 8px;
-    transition: 0.5s;
-    margin: -2px;
-    margin-top: 20px;
-    color: #fff;
-    background: #956324;
-    border: none;
-}
-
-.readLessBtn2 {
-    display: none; /* Alguses peidetud */
-}
-
-/* Stiil "Loe rohkem" nupule */
+.readLessBtn2,
 .readMoreBtn3,
-.readLessBtn3 {
-    font-family: "Lato", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 15px;
-    border-radius: 8px;
-    transition: 0.5s;
-    margin: -2px;
-    margin-top: 20px;
-    color: #fff;
-    background: #956324;
-    border: none;
-}
-
-.readLessBtn3 {
-    display: none; /* Alguses peidetud */
-}
-
-/* Stiil "Loe rohkem" nupule */
+.readLessBtn3,
 .readMoreBtn4,
-.readLessBtn4 {
-    font-family: "Lato", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 15px;
-    border-radius: 50px;
-    transition: 0.5s;
-    margin: -2px;
-    color: #fff;
-    background: #956324;
-}
-
-.readLessBtn4 {
-    display: none; /* Alguses peidetud */
-}
-
-/* Stiil "Loe rohkem" nupule */
+.readLessBtn4,
 .readMoreBtn5,
 .readLessBtn5 {
     font-family: "Lato", sans-serif;
@@ -733,13 +652,19 @@ section {
     letter-spacing: 1px;
     display: inline-block;
     padding: 8px 15px;
-    border-radius: 50px;
+    border-radius: 8px;
     transition: 0.5s;
     margin: -2px;
+    margin-top: 20px;
     color: #fff;
     background: #956324;
+    border: none;
 }
 
+.readLessBtn,
+.readLessBtn2,
+.readLessBtn3,
+.readLessBtn4,
 .readLessBtn5 {
     display: none; /* Alguses peidetud */
 }
