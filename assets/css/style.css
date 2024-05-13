@@ -656,8 +656,8 @@ section {
     margin: -2px;
     margin-top: 20px;
     color: #fff;
-    background: #956324;
-    border: none;
+    background: #00c9ae;
+    border: #4b8078;
 }
 
 .readMoreBtn:hover,
@@ -670,7 +670,7 @@ section {
 .readLessBtn4:hover,
 .readMoreBtn5:hover,
 .readLessBtn5:hover {
-    background: #dc8d29;
+    background: #00C9AE;
 }
 
 .readLessBtn,
@@ -938,7 +938,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    background: #956324;
+    background: #00C9AE;
     color: #fff;
 }
 
@@ -1816,17 +1816,33 @@ section {
 
 .btn-primary {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #956324;
-    --bs-btn-border-color: #956324;
+    --bs-btn-bg: #00c9ae;
+    --bs-btn-border-color: #4b8078;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #dc8d29;
-    --bs-btn-hover-border-color: #dc8d29;
+    --bs-btn-hover-bg: #c3fcf1;
+    --bs-btn-hover-border-color: #4b8078;
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #f29013;
-    --bs-btn-active-border-color: #956324;
+    --bs-btn-active-bg: #00c9ae;
+    --bs-btn-active-border-color: #4b8078;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #8e7b63;
-    --bs-btn-disabled-border-color: #8e7b63;
+    --bs-btn-disabled-bg: #00c9ae;
+    --bs-btn-disabled-border-color: #4b8078;
 }
+
+.carousel {
+    width: 600px; /* siin võib ka olla nt 100% */
+    height: 400px;
+}
+
+.carousel > .carousel-inner > .carousel-item > img {
+    max-width: 600px; /* siin võib ka olla nt 100% */
+    max-height: 400px;
+}
+
+/* Ma leidsin ideid siit kohtadest: 
+ * https://stackoverflow.com/questions/28589911/bootstrap-change-carousel-height
+ * https://stackoverflow.com/questions/17357306/bootstrap-carousel-resizing-image
+ * Seda ei proovinud, aga ka huvitav. Olenevalt sellest, mis see eesmärk on. Saab arutada homme. https://forum.bootstrapstudio.io/t/how-do-you-decrease-carousel-size/5109/2#:~:text=%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%3Cdiv%20class%3D%22col%2Dmd%2D4%22%3E%0A%20%20%20%20%20%20%20%20...Carousel%20Code...%0A%20%20%20%20%3C/div%3E%0A%3C/div%3E
+ * */
