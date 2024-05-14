@@ -573,6 +573,12 @@ section {
     border-color: whitesmoke;
 }
 
+.services .card-body i {
+    font-size: 48px;
+    float: left;
+    color: #956324;
+}
+
 /*--------------------------------------------------------------
 # Featured
 --------------------------------------------------------------*/
@@ -644,19 +650,19 @@ section {
 .readLessBtn4,
 .readMoreBtn5,
 .readLessBtn5 {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 8px 15px;
-    border-radius: 8px;
-    transition: 0.5s;
-    margin: -2px;
-    margin-top: 20px;
-    color: #fff;
-    background: #00c9ae;
-    border: #4b8078;
+    padding: 12px 32px;
+    border-radius: 4px;
+    transition: 0.3s;
+    line-height: 1;
+    color: #c48d39;
+    animation-delay: 0.8s;
+    margin-top: 6px;
+    border: 2px solid #c48d39;
 }
 
 .readMoreBtn:hover,
@@ -669,7 +675,9 @@ section {
 .readLessBtn4:hover,
 .readMoreBtn5:hover,
 .readLessBtn5:hover {
-    background: #00c9ae;
+    background: #c48d39;
+    color: #fff;
+    text-decoration: none;
 }
 
 .readLessBtn,
@@ -1820,21 +1828,20 @@ img.object-fit-cover {
     padding-top: 5px;
 }
 
-.btn-primary {
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #00c9ae;
-    --bs-btn-border-color: #4b8078;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #c3fcf1;
-    --bs-btn-hover-border-color: #4b8078;
-    --bs-btn-focus-shadow-rgb: 49, 132, 253;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #00c9ae;
-    --bs-btn-active-border-color: #4b8078;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #00c9ae;
-    --bs-btn-disabled-border-color: #4b8078;
+card-body .btn-primary {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 4px;
+    transition: 0.3s;
+    line-height: 1;
+    color: #c48d39;
+    animation-delay: 0.8s;
+    margin-top: 6px;
+    border: 2px solid #c48d39;
 }
 
 .carousel {
@@ -1852,3 +1859,34 @@ img.object-fit-cover {
  * https://stackoverflow.com/questions/17357306/bootstrap-carousel-resizing-image
  * Seda ei proovinud, aga ka huvitav. Olenevalt sellest, mis see eesmärk on. Saab arutada homme. https://forum.bootstrapstudio.io/t/how-do-you-decrease-carousel-size/5109/2#:~:text=%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%3Cdiv%20class%3D%22col%2Dmd%2D4%22%3E%0A%20%20%20%20%20%20%20%20...Carousel%20Code...%0A%20%20%20%20%3C/div%3E%0A%3C/div%3E
  * */
+
+.progress {
+    display: flex;
+    overflow: hidden;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+.progress-bar {
+    flex-grow: 1;
+    transition: width 0.6s ease;
+}
+.progress-bar.bootstrap {
+    background-color: #956324;
+}
+.progress-bar.github {
+    background-color: #b47e3e;
+}
+.progress-bar.figma {
+    background-color: #d39a59;
+}
+.progress-bar.ps {
+    background-color: #f3b774;
+}
+.progress-bar.illustrator {
+    background-color: #ffd490;
+}
+
+.bx-lg {
+    font-size: 6rem !important;
+}
