@@ -391,6 +391,11 @@ h6 {
     margin-bottom: 7px;
 }
 
+#hero .hero-logo img {
+    margin-top: 60px;
+    height: 150px;
+}
+
 #hero h1 {
     margin: 0 0 0 0;
     font-size: 40px;
