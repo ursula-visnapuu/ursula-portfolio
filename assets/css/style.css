@@ -20,11 +20,11 @@ body {
 
 a {
     text-decoration: none;
-    color: #956324;
+    color: #c48d39;
 }
 
 a:hover {
-    color: #555555;
+    color: #fbbb4c;
     text-decoration: none;
 }
 
@@ -32,6 +32,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 h6 {
     font-family: "Teko-Light.woff", "Open Sans";
 }
@@ -46,7 +47,7 @@ h6 {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #514438;
+    background: #c48d39;
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -60,7 +61,7 @@ h6 {
 }
 
 .back-to-top:hover {
-    background: #956324;
+    background: #fbbb4c;
 }
 
 .back-to-top.active {
@@ -89,31 +90,15 @@ h6 {
     box-shadow: 0 4px 10px -3px hsla(0, 0%, 75%, 0.5);
 }
 
-#header .logo {
-    font-size: 34px;
-    margin: 0;
-    padding: 0;
-    font-family: "nasalization";
-    font-weight: 700;
-    letter-spacing: 3px;
-    padding-left: 10px;
-    border-left: 4px solid #956324;
-}
-
-/*#header .logo h5 {
-    font-size: 21px;
+#header .logo h5 {
+    font-size: 1.25rem;
     font-family: "nasalization";
     margin: 0;
-    line-height: 1;
     font-weight: 302;
-    letter-spacing: 7px;
+    letter-spacing: 3px;
     text-transform: uppercase;
-}*/
-
-#header .logo h1 a,
-#header .logo h1 a:hover {
-    color: #fff;
-    text-decoration: none;
+    color: #956324;
+    padding-left: 10px;
     border-left: 4px solid #956324;
 }
 
@@ -185,8 +170,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-    color: #956324;
-    font-weight: bold;
+    color: #c48d39;
 }
 
 .navbar .dropdown ul {
@@ -222,7 +206,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-    color: #956324;
+    color: #c48d39;
 }
 
 .navbar .dropdown:hover > ul {
@@ -321,7 +305,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-    color: #956324;
+    color: #c48d39;
 }
 
 .navbar-mobile .getstarted,
@@ -338,7 +322,7 @@ h6 {
     opacity: 1;
     visibility: visible;
     background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
 }
 
 .navbar-mobile .dropdown ul li {
@@ -356,7 +340,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
-    color: #956324;
+    color: #c48d39;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -412,6 +396,9 @@ h6 {
     text-transform: uppercase;
 }
 
+
+/* TODO: Need pole kuskil kasutusel
+
 #hero .btn-get-started {
     font-family: "nasalization";
     font-weight: 166;
@@ -422,7 +409,7 @@ h6 {
     border-radius: 3px;
     margin: 7px;
     color: #fff;
-    background: #956324;
+    background: #c48d39;
 }
 
 #hero .btn-get-started:hover {
@@ -430,6 +417,7 @@ h6 {
     background: whitesmoke;
     color: #555555;
 }
+*/
 
 @media (min-width: 1024px) {
     #hero {
@@ -529,7 +517,7 @@ section {
 .about .content ul i {
     font-size: 24px;
     padding: 2px 6px 0 0;
-    color: #956324;
+    color: #c48d39;
 }
 
 .about .content p:last-child {
@@ -548,7 +536,7 @@ section {
 .services .icon-box i {
     font-size: 48px;
     float: left;
-    color: #956324;
+    color: #c48d39;
 }
 
 .services .icon-box p {
@@ -592,9 +580,10 @@ section {
     background: white;
 }
 
+/* TODO: klass "nav-tabs" ei ole kuskil kasutusel
 .featured .nav-tabs {
     border: 0;
-}
+}*/
 
 .featured .nav-link {
     border: 0;
@@ -610,7 +599,7 @@ section {
 }
 
 .featured .nav-link:hover h4 {
-    color: #956324;
+    color: #c48d39;
 }
 
 .featured .nav-link p {
@@ -623,12 +612,13 @@ section {
 }
 
 .featured .nav-link.active h4 {
-    color: #956324;
+    color: #c48d39;
 }
 
+/* TODO: tab-pane pole ka kuskil kasutusel
 .featured .tab-pane.active {
     animation: slide-down 0.5s ease-out;
-}
+}*/
 
 @keyframes slide-down {
     0% {
@@ -660,14 +650,14 @@ section {
     font-size: 14px;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 12px 32px;
-    border-radius: 4px;
-    transition: 0.3s;
-    line-height: 1;
-    color: #c48d39;
-    animation-delay: 0.8s;
-    margin-top: 6px;
-    border: 2px solid #c48d39;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin: -2px;
+    margin-top: 20px;
+    color: #fff;
+    background: #c48d39;
+    border: none;
 }
 
 .readMoreBtn:hover,
@@ -680,9 +670,7 @@ section {
 .readLessBtn4:hover,
 .readMoreBtn5:hover,
 .readLessBtn5:hover {
-    background: #c48d39;
-    color: #fff;
-    text-decoration: none;
+    background: #fbbb4c;
 }
 
 .readLessBtn,
@@ -693,9 +681,10 @@ section {
     display: none; /* Alguses peidetud */
 }
 
+/* TODO: Klass "btn-open-modal" pole kuskil kasutusel
 .btn-open-modal {
     margin-bottom: 5px;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Why Us
@@ -765,7 +754,7 @@ section {
 }
 
 .why-us .accordion-list span {
-    color: #956324;
+    color: #c48d39;
     font-weight: 600;
     font-size: 18px;
     padding-right: 10px;
@@ -792,7 +781,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed:hover {
-    color: #956324;
+    color: #c48d39;
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
@@ -806,7 +795,7 @@ section {
 .why-us .play-btn {
     width: 94px;
     height: 94px;
-    background: radial-gradient(#956324 50%, rgba(124, 197, 118, 0.4) 52%);
+    background: radial-gradient(#c48d39 50%, rgba(124, 197, 118, 0.4) 52%);
     border-radius: 50%;
     display: block;
     position: absolute;
@@ -849,7 +838,7 @@ section {
 }
 
 .why-us .play-btn:hover::after {
-    border-left: 15px solid #956324;
+    border-left: 15px solid #c48d39;
     transform: scale(20);
 }
 
@@ -950,7 +939,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    background: #00c9ae;
+    background: #c48d39;
     color: #fff;
 }
 
@@ -1051,7 +1040,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-    color: #956324;
+    color: #c48d39;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1100,14 +1089,14 @@ section {
     height: 15px;
     background-color: #fff;
     opacity: 1;
-    border: 1px solid #956324;
+    border: 1px solid #c48d39;
 }
 
 .portfolio-details
     .portfolio-details-slider
     .swiper-pagination
     .swiper-pagination-bullet-active {
-    background-color: #956324;
+    background-color: #c48d39;
 }
 
 .portfolio-details .portfolio-info {
@@ -1212,11 +1201,11 @@ section {
 }
 
 .testimonials .quote-icon i {
-    color: #956324;
+    color: #c48d39;
     font-size: 24px;
     padding: 18px;
     border-radius: 50px;
-    border: 2px solid #956324;
+    border: 2px solid #c48d39;
 }
 
 .testimonials .testimonials-carousel,
@@ -1296,7 +1285,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #956324;
+    background-color: #c48d39;
 }
 
 @media (min-width: 992px) {
@@ -1424,7 +1413,7 @@ section {
     text-transform: uppercase;
     font-weight: 400;
     margin-bottom: 15px;
-    color: #956324;
+    color: #c48d39;
 }
 
 .team .praktika .praktika-info p {
@@ -1465,7 +1454,7 @@ section {
 .faq .faq-list a {
     display: block;
     position: relative;
-    font-family: #956324;
+    font-family: #c48d39;
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
@@ -1518,7 +1507,7 @@ section {
 
 .contact .info i {
     font-size: 20px;
-    color: #956324;
+    color: #c48d39;
     float: left;
     width: 44px;
     height: 44px;
@@ -1553,7 +1542,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-    background: #956324;
+    background: #c48d39;
     color: #fff;
 }
 
@@ -1625,7 +1614,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-    background: #956324;
+    background: #c48d39;
     border: 0;
     padding: 10px 24px;
     color: #fff;
@@ -1696,8 +1685,8 @@ section {
 /*--------------------------------------------------------------
 # Valitud koolitööd/õppimine
 --------------------------------------------------------------*/
-img.object-fit-cover {
-    height: 287px;
+img.card-img-top {
+    max-height: 287px;
 }
 
 /*--------------------------------------------------------------
@@ -1778,7 +1767,7 @@ img.object-fit-cover {
     background: none;
     font-size: 16px;
     padding: 0 20px;
-    background: #956324;
+    background: #c48d39;
     color: #fff;
     transition: 0.3s;
     border-radius: 50px;
@@ -1797,7 +1786,7 @@ img.object-fit-cover {
 #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #956324;
+    background: #c48d39;
     color: #080808;
     line-height: 1;
     padding: 8px 0;
@@ -1810,7 +1799,7 @@ img.object-fit-cover {
 }
 
 #footer .footer-top .social-links a:hover {
-    background: #956324;
+    background: #c48d39;
     color: #fff;
     text-decoration: none;
 }
@@ -1847,6 +1836,28 @@ card-body .btn-primary {
     animation-delay: 0.8s;
     margin-top: 6px;
     border: 2px solid #c48d39;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #c48d39;
+    --bs-btn-border-color: #c48d39;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #fbbb4c;
+    --bs-btn-hover-border-color: #fbbb4c;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #f29013;
+    --bs-btn-active-border-color: #c48d39;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #8e7b63;
+    --bs-btn-disabled-border-color: #8e7b63;
+}
+
+.btn-lg:hover {
+    color: #6c757d;
+    background-color: #f6f6f6;
 }
 
 .carousel {
