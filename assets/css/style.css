@@ -1464,15 +1464,12 @@ section {
     cursor: pointer;
 }
 
-.faq .koolitused li > div a.btn-primary {
-    background: #b7a99a;
-    border: none;
-    color: #fff;
-    margin-top: 20px;
-}
-
 .faq .faq-list li > div a {
     color: #006d60;
+}
+
+.faq .faq-list li > div a.btn-primary {
+    color: #fff;
 }
 
 .faq .faq-list i {
@@ -1918,4 +1915,8 @@ card-body .btn-primary {
 
 .bx-lg {
     font-size: 6rem !important;
+}
+
+.featured .bx {
+    color:#C48D39;
 }
