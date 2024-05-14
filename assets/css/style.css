@@ -18,7 +18,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #c48d39;
+    color: #006d60;
 }
 
 a:hover {
@@ -649,14 +649,15 @@ section {
     font-size: 14px;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 8px 15px;
-    border-radius: 8px;
-    transition: 0.5s;
-    margin: -2px;
-    margin-top: 20px;
-    color: #fff;
-    background: #c48d39;
-    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: 0.3s;
+    line-height: 1;
+    margin-top: 15px;
+    color: #c48d39;
+    animation-delay: 0.8s;
+    background: #fff;
+    border: 2px solid #c48d39;
 }
 
 .readMoreBtn:hover,
@@ -669,7 +670,9 @@ section {
 .readLessBtn4:hover,
 .readMoreBtn5:hover,
 .readLessBtn5:hover {
-    background: #fbbb4c;
+    background: #c48d39;
+    color: #fff;
+    text-decoration: none;
 }
 
 .readLessBtn,
@@ -1453,12 +1456,20 @@ section {
 .faq .faq-list a {
     display: block;
     position: relative;
-    font-family: #c48d39;
+    color: #be9b6e;
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
     padding-right: 25px;
     cursor: pointer;
+}
+
+.faq .faq-list li > div a {
+    color: #006d60;
+}
+
+.faq .faq-list li > div a.btn-primary {
+    color: #fff;
 }
 
 .faq .faq-list i {
