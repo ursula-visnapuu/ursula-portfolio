@@ -1464,12 +1464,15 @@ section {
     cursor: pointer;
 }
 
-.faq .faq-list li > div a {
-    color: #006d60;
+.faq .koolitused li > div a.btn-primary {
+    background: #b7a99a;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
 }
 
-.faq .faq-list li > div a.btn-primary {
-    color: #fff;
+.faq .faq-list li > div a {
+    color: #006d60;
 }
 
 .faq .faq-list i {
