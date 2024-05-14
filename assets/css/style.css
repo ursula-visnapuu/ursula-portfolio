@@ -11,8 +11,6 @@
 --------------------------------------------------------------*/
 font-family: "Teko", sans-serif;
 
-font-family: "Nasalization", sans-serif;
-
 body {
     font-family: "Teko-Light.woff", "Open Sans";
     color: #3e3e3e;
@@ -85,7 +83,6 @@ h6 {
     height: 90px;
     transition: all 0.5s;
     z-index: 997;
-
     background: #fff;
     box-shadow: 0 4px 10px -3px hsla(0, 0%, 75%, 0.5);
 }
@@ -103,9 +100,9 @@ h6 {
 }
 
 #header .logo img {
-    padding: 0;
-    margin: 0;
-    max-height: 40px;
+    padding-top: 2px;
+    margin-right: 5px;
+    max-height: 48px;
 }
 
 @media (max-width: 992px) {
@@ -151,7 +148,6 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0 10px 30px;
     font-size: 15px;
     color: #151515;
     text-transform: uppercase;
@@ -171,6 +167,10 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover > a {
     color: #c48d39;
+}
+
+.navbar .nav-link {
+    padding: 10px 20px 10px 10px;
 }
 
 .navbar .dropdown ul {
@@ -395,7 +395,6 @@ h6 {
     font-weight: 400;
     text-transform: uppercase;
 }
-
 
 /* TODO: Need pole kuskil kasutusel
 
