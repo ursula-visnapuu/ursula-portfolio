@@ -570,7 +570,12 @@ section {
     float: left;
     color: #956324;
 }
-
+/*--------------------------------------------------------------
+# Valitud koolitööd/õppimine
+--------------------------------------------------------------*/
+img.card-img-top {
+    max-height: 248px;
+}
 /*--------------------------------------------------------------
 # Featured
 --------------------------------------------------------------*/
@@ -1721,12 +1726,7 @@ section {
     }
 }
 
-/*--------------------------------------------------------------
-# Valitud koolitööd/õppimine
---------------------------------------------------------------*/
-img.card-img-top {
-    max-height: 287px;
-}
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -1900,20 +1900,14 @@ card-body .btn-primary {
 }
 
 .carousel {
-    width: 100%; 
+    width: 100%;
     height: 400px;
 }
 
 .carousel > .carousel-inner > .carousel-item > img {
-    max-width: 100%; 
+    max-width: 100%;
     max-height: 400px;
 }
-
-/* Ma leidsin ideid siit kohtadest: 
- * https://stackoverflow.com/questions/28589911/bootstrap-change-carousel-height
- * https://stackoverflow.com/questions/17357306/bootstrap-carousel-resizing-image
- * Seda ei proovinud, aga ka huvitav. Olenevalt sellest, mis see eesmärk on. Saab arutada homme. https://forum.bootstrapstudio.io/t/how-do-you-decrease-carousel-size/5109/2#:~:text=%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%3Cdiv%20class%3D%22col%2Dmd%2D4%22%3E%0A%20%20%20%20%20%20%20%20...Carousel%20Code...%0A%20%20%20%20%3C/div%3E%0A%3C/div%3E
- * */
 
 .progress {
     display: flex;
