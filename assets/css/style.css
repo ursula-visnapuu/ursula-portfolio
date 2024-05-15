@@ -1439,6 +1439,33 @@ section {
     height: 100px;
 }
 
+.team .container {
+    width: 100%; /* Tagab, et konteiner katab kogu saadaoleva laiuse */
+}
+
+.team .section-title {
+    width: 100%;
+}
+
+.team .list-group-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0; /* Eemaldab paddingu, et sisu täidaks kogu laiuse */
+}
+
+.team .card {
+    width: 100%;
+    margin: 0; /* Eemaldab marginid, et kaard oleks täielikult laiendatud */
+}
+
+.team .card-body {
+    text-align: left;
+    padding: 10px;
+    margin: 0; /* Eemaldab marginid */
+}
+
+
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
