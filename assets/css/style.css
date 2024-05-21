@@ -381,10 +381,12 @@ h6 {
 }
 
 #hero h1 {
+    font-family: "nasalization";
+    font-weight: 166;
+    letter-spacing: 14px;
     margin: 0 0 0 0;
     font-size: 40px;
-    font-weight: 500;
-    line-height: 23px;
+    line-height: 35px;
     color: #956324;
 }
 
